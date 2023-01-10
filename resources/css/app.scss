@@ -1,0 +1,51 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: unset;
+    background-color: #eaeaea
+}
+nav {
+    // display: flex;
+    // width: 100%;
+    // height: 4%;
+    // border-bottom: solid 1px #aaa;
+    // justify-content: center;
+    background-color: white;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 96%;
+    align-items: center;
+}
+.players-container {
+    background-color: white;
+    border-radius: 15px;
+    max-height: 90%;
+}
+.player-item {
+    height: 55px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    justify-content: space-between;
+}
+.player-item>h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: unset;
+}
+.player-item>h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: unset;
+}
